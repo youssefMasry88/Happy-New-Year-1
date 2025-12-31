@@ -54,7 +54,7 @@ useEffect(() => {
 }
 function TimeBox({label, value}) {
   return (
-    <div className="rounded-lg p-4 text-center w-19 md:w-22 z-10 bg-black/50">
+    <div className="rounded-lg p-4 text-center w-17 md:w-22 z-10 bg-black/50">
       <div className="text-4xl font-bold">{value}</div>
       <span className="text-sm text-center ">{label}</span>
     </div>
