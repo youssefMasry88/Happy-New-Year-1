@@ -1,9 +1,9 @@
 {
-  "name": "newyear",
+  "name": "Graduation-Day",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://youssefmasry88.github.io/newyear",
+  "homepage": "https://youssefmasry88.github.io/Graduation-Day",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
