@@ -1,1 +1,21 @@
 @import "tailwindcss";
+.cap {
+  position: absolute;
+  top: -80px;
+  z-index: 999;
+  opacity: 1;
+  filter: drop-shadow(0 0 8px rgb(0, 0, 0));
+  animation: fall linear infinite;
+}
+
+@keyframes fall {
+  0% {
+    transform: translateY(-80px) rotate(0deg);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateY(110vh) rotate(720deg);
+    opacity: 0;
+  }
+}
